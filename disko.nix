@@ -50,7 +50,7 @@
                   "/swap" = {
                     mountpoint = "/.swapvol";
                     swap = {
-                      swapfile.size = "16G"; 
+                      swapfile.size = "16G";
                     };
                   };
                 };
