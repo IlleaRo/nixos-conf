@@ -3,4 +3,5 @@
     alacritty
 
     hyprland
+  ];
 }
