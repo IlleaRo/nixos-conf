@@ -6,6 +6,6 @@
 	};
 	
 	imports = [
-		./modules/bash.nix
+		./modules/neovim.nix
 	];
 }
