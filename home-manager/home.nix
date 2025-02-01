@@ -7,5 +7,6 @@
 	
 	imports = [
 		./modules/neovim.nix
-	];
+    ./modules/hyprland.nix
+    ];
 }

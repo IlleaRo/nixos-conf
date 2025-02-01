@@ -3,6 +3,19 @@
     alacritty
     hyprland
     (pkgs.wrapFirefox (pkgs.firefox-unwrapped.override { pipewireSupport = true;}) {})
+
+    # Basic
+    unzip
+
+    # Programming
+    git
+    gnumake
+    gcc
+
+    # Neovim
+    ripgrep
+    wayclip
+
   ];
 
 xdg = {

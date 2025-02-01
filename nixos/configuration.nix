@@ -45,6 +45,12 @@
   #   useXkbConfig = true; # use xkb.options in tty.
   # };
 
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "FiraCode" ]; })
+    fira-code-nerdfont
+  ];
+
+
   # Enable the X11 windowing system.
   # services.xserver.enable = true;
 
@@ -83,7 +89,6 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
    environment.systemPackages = with pkgs; [
-     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
      git
      home-manager
      spice-vdagent
