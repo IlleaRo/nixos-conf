@@ -1,4 +1,4 @@
-{ config, pkgs, ... }: {
+{
 	home = {
 		username = "illearo";
 		homeDirectory = "/home/illearo";
@@ -7,6 +7,6 @@
 	
 	imports = [
 		./modules/neovim.nix
-    ./modules/hyprland.nix
-    ];
+    ./modules/hyprland/default.nix
+  ];
 }
