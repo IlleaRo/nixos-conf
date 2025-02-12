@@ -8,5 +8,6 @@
 	imports = [
 		./modules/neovim.nix
     ./modules/hyprland/default.nix
+    ./modules/waybar/waybar.nix
   ];
 }

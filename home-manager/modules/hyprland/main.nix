@@ -7,6 +7,10 @@
 
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
+
+      exec-once = [
+        "waybar"
+      ];
     };
   };
 }
